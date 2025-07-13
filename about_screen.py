@@ -12,6 +12,6 @@ def show_about_screen(root):
         "IT Department, 2025\n"
         "This is an Open Source Project"
     )
-    tk.Label(root, text=info_text, font=("Helvetica", 17), justify="center").pack(pady=10)
+    tk.Label(root, text=info_text, font=("Helvetica", 18), justify="center").pack(pady=10)
 
-    tk.Button(root, text="Back", font=("Helvetica", 10), command=root.destroy).pack(pady=`15)
+    tk.Button(root, text="Back", font=("Helvetica", 10), command=root.destroy).pack(pady=`19)
